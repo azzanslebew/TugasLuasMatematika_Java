@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_bangundatar"
+        android:title="Bangun Datar"
+        android:icon="@drawable/bangundatar"/>
+    <item
+        android:id="@+id/menu_bangunruang"
+        android:title="Bangun Ruang"
+        android:icon="@drawable/bangunruang"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/user"/>
+</menu>
