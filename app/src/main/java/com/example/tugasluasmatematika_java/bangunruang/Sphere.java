@@ -39,7 +39,7 @@ public class Sphere extends AppCompatActivity {
                 if (!jarijariStr.isEmpty()) {
                     double jarijari = Double.parseDouble(jarijariStr);
                     double hasil = 0;
-                    hasil = 1.33 * 3.14 * jarijari * jarijari * jarijari;
+                    hasil = 4 * 3.14 * jarijari * jarijari * jarijari / 3;
                     hasilSphere.setText("Hasil : " + String.format("%.3f", hasil));
                 } else {
                     Toast.makeText(Sphere.this, "Kolom tidak boleh kosong", Toast.LENGTH_SHORT).show();

@@ -43,7 +43,7 @@ public class Pyramid extends AppCompatActivity {
                     double sisi = Double.parseDouble(sisiStr);
                     double tinggi = Double.parseDouble(tinggiStr);
                     double hasil = 0;
-                    hasil = 0.33 * sisi * sisi * tinggi;
+                    hasil = sisi * sisi * tinggi / 3;
                     hasilPyramid.setText("Hasil : " + String.format("%.3f", hasil));
                 } else {
                     Toast.makeText(Pyramid.this, "Kolom tidak boleh kosong", Toast.LENGTH_SHORT).show();
